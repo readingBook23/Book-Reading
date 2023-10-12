@@ -19,3 +19,5 @@ Wireframe and Mockup Link : https://www.figma.com/file/ji5lSe21DmFL2IahJN7xQv/Un
 [MEMBER : Marah Salah](https://github.com/MarahSalah)
 
 [MEMBER : Maha Alkaabneh](https://github.com/maha-mohammad01)
+
+[MEMBER : Issa Haddad](https://github.com/issa097)
