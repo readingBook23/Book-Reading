@@ -1,0 +1,327 @@
+User
+.login-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.login-container form {
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 80px;
+    color: #009EE2;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Cabinet Grotesk;
+    font-size: 16px;
+}
+
+fieldset {
+    width: 5%;
+    text-align: left;
+    height: 30px;
+    margin-left: 42%;
+    color: #009EE2;
+    border: 1px solid #009EE2;
+}
+
+
+.login-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.login-container form {
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 80px;
+    color: #009EE2;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Cabinet Grotesk;
+    font-size: 16px;
+}
+
+fieldset {
+    width: 5%;
+    text-align: left;
+    height: 30px;
+    margin-left: 42%;
+    color: #009EE2;
+    border: 1px solid #009EE2;
+}
+
+svg {
+    width: 15.66px;
+    height: 15.275px;
+    flex-shrink: 0;
+    margin-top: -20px; 
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.email-input label {
+    flex: 1;
+}
+
+.email-input input {
+    flex: 3;
+    border: 1px solid transparent; 
+}
+
+.email-input input:focus {
+    outline: none; 
+}
+legend{
+    font-size: smaller;
+}
+input{
+    width: 200px;
+}
+h6{
+    color: rgba(0, 0, 0, 0.50);
+    margin-top: 3px;
+     text-align: center;
+}
+#login{
+    background-color: rgba(55, 129, 198, 0.60);
+    width: 100.74px;
+    height: 35px;
+    color: white;
+    border: 1px solid rgba(55, 129, 198, 0.60);
+}
+.line-before,
+.line-after {
+    display: inline-block;
+    width: 50px; 
+    height: 1px;
+    background-color: rgba(28, 28, 28, 0.20);
+}
+
+.line-before {
+    margin-right: 5px; 
+}
+
+.line-after {
+    margin-left: 5px; 
+}
+.button-container {
+    display: flex; 
+    align-content: center;
+    justify-content: center;
+}
+
+.custom-button {
+    padding: 10px 20px; 
+    border: none;
+    background-color: #3781C6;
+    margin-right: 5px; 
+    border-radius: 2px;
+    text-align: center; 
+}
+
+
+.custom-button svg {
+width: 30px;
+height: 30px;
+vertical-align: middle;
+padding-top: 13px; 
+}
+p{
+color: black;
+}
+h3{
+   
+   color: #3781C6;
+
+text-align: center;
+font-family: Outfit;
+font-size: 50px;
+}
+
+#inputEmail4{
+    background-color: rgba(55, 129, 198, 0.07);
+    border-radius: 1px;
+    stroke: #FFF;
+    backdrop-filter: blur(6px);
+    margin-left: 420px;
+    width:300px;
+}
+#inputPassword4{
+    background-color: rgba(55, 129, 198, 0.07);
+    border-radius: 1px;
+    stroke: #FFF;
+    backdrop-filter: blur(6px);
+    margin-right: 420px;
+    width:300px;
+    
+}
+#inputAddress,#inputAddress2{
+    margin-left: 420px; 
+    width: 600px;
+    background-color: rgba(55, 129, 198, 0.07);
+}
+
+#pass,#mailto{
+    margin-right: 52%;
+    
+}
+#h2{
+color: #3781C6;
+text-align: center;
+font-family: Outfit;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: 31%;
+}
+
+    .form-label{
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    }
+     #last{
+    margin-right:400px;
+    display: inline-block;
+   
+     }
+   
+
+.cont{
+    background-color: rgba(55, 129, 198, 0.07);
+    padding-right: 10px;
+    margin-left: 20px;
+    border: 2px solid rgba(55, 129, 198, 0.07);
+    width: 290px;
+    height: 40px;
+    align-items: center;
+    height: 55px;
+    
+}
+.cont svg{
+    width: 44px;
+height: 55px;
+flex-shrink: 0;
+align-content: center;
+justify-content: center;
+margin: 0.5%;
+
+    }
+    .h4 h4 {
+        display: inline-flex;
+        text-align: right;
+        padding-right: 10px;
+        justify-content: right;
+        color: #3781C6;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 20px;
+    }
+
+    .h4 {
+        margin-left: 30%;
+    }
+
+    .form-container {
+        text-align: center;
+    }
+
+    .form-label {
+        font-size: 14px; 
+    }
+
+    .form-control {
+        width: 40%; 
+        height: auto; 
+    } 
+   
+
+.cont{
+    background-color: rgba(55, 129, 198, 0.07);
+    padding-right: 10px;
+    margin-left: 20px;
+    border: 2px solid rgba(55, 129, 198, 0.07);
+    width: 290px;
+    height: 40px;
+    align-items: center;
+    height: 55px;
+    
+}
+.cont svg{
+    width: 44px;
+height: 55px;
+flex-shrink: 0;
+align-content: center;
+justify-content: center;
+margin: 0.5%;
+
+    }
+    .h42 h4 {
+        display: inline-flex;
+        text-align: right;
+        padding-right: 10px;
+        justify-content: right;
+        color: #3781C6;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 20px;
+    }
+
+    .h42 {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+
+    .form-container {
+        text-align: center;
+    }
+
+    .form-label {
+        font-size: 14px; 
+    }
+
+    .form-control {
+        width: 40%; 
+        height: auto; 
+    }
+    .form-label{
+        padding-left: 180px;
+    }
+    .acc {
+        margin-left: 31%;
+        color: #000;
+text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+font-family: Syne;
+font-size: 15px;
+font-style: normal;
+line-height: normal;
+    }
+    

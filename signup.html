@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>signup</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <style>
+        .h4 h4 {
+            display: inline-flex;
+            text-align: right;
+            padding-right: 10px;
+            justify-content: right;
+            color: #3781C6;
+            text-align: center;
+            font-family: Outfit;
+            font-size: 20px;
+        }
+
+        .h4 {
+            margin-left: 30%;
+        }
+
+        .form-container {
+            text-align: center;
+        }
+
+        .form-label {
+            font-size: 14px;
+        }
+
+        .form-control {
+            width: 40%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="h42">
+            <h4>log in</h4>
+            <h4>sign up</h4>
+        </div>
+
+        <h3 id="h2">sign up</h3>
+        <div class="form-container">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label" >First name</label>
+                    <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label" id="last">Last name</label>
+                    <input type="text" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label" id="mailto">Email</label>
+                    <input type="email" class="form-control" id="inputAddress">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label" id="pass">Password</label>
+                    <input type="password" class="form-control" id="inputAddress2" >
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="button-container">
+        <button class="cont"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+            <path d="M12.2537 35.9887H16.9497V24.6696L10.2412 19.6758V33.9912C10.2412 35.0965 11.1435 35.9887 12.2537 35.9887Z" fill="#4285F4"/>
+            <path d="M33.0498 35.9887H37.7457C38.8593 35.9887 39.7582 35.0932 39.7582 33.9912V19.6758L33.0498 24.6696" fill="#34A853"/>
+            <path d="M33.0498 16.0139V24.6698L39.7582 19.676V17.0127C39.7582 14.5424 36.9172 13.1342 34.9282 14.6156" fill="#FBBC04"/>
+            <path d="M16.9492 24.6695V16.0137L24.9994 22.0062L33.0495 16.0137V24.6695L24.9994 30.662" fill="#EA4335"/>
+            <path d="M10.2412 17.0127V19.676L16.9497 24.6698V16.0139L15.0713 14.6156C13.0789 13.1342 10.2412 14.5424 10.2412 17.0127Z" fill="#C5221F"/>
+          </svg>Continue With Gmail</button>
+          <button class="cont"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="40" viewBox="0 0 45 40" fill="none">
+            <path d="M31.875 5.83342C31.875 5.61241 31.7762 5.40045 31.6004 5.24417C31.4246 5.08789 31.1861 5.00009 30.9375 5.00009H26.25C23.8896 4.89557 21.5786 5.62574 19.822 7.03106C18.0653 8.43637 17.0058 10.4026 16.875 12.5001V17.0001H12.1875C11.9389 17.0001 11.7004 17.0879 11.5246 17.2442C11.3488 17.4004 11.25 17.6124 11.25 17.8334V22.1668C11.25 22.3878 11.3488 22.5997 11.5246 22.756C11.7004 22.9123 11.9389 23.0001 12.1875 23.0001H16.875V34.1668C16.875 34.3878 16.9738 34.5997 17.1496 34.756C17.3254 34.9123 17.5639 35.0001 17.8125 35.0001H23.4375C23.6861 35.0001 23.9246 34.9123 24.1004 34.756C24.2762 34.5997 24.375 34.3878 24.375 34.1668V23.0001H29.2875C29.496 23.0028 29.6995 22.9436 29.8659 22.8319C30.0323 22.7202 30.1521 22.5624 30.2063 22.3834L31.5562 18.0501C31.5935 17.927 31.5986 17.7979 31.5709 17.6727C31.5432 17.5476 31.4837 17.4298 31.3967 17.3284C31.3098 17.2269 31.1978 17.1446 31.0694 17.0877C30.9411 17.0308 30.7997 17.0008 30.6562 17.0001H24.375V12.5001C24.4216 12.0876 24.6396 11.7053 24.9863 11.4279C25.333 11.1505 25.7836 10.998 26.25 11.0001H30.9375C31.1861 11.0001 31.4246 10.9123 31.6004 10.756C31.7762 10.5997 31.875 10.3878 31.875 10.1668V5.83342Z" fill="#1877F2"/>
+          </svg>Continue With Facebook</button></div>
+          <p class="acc">already have an account? <spsn style="text-decoration: underline;">Login</spsn></p>
+          
+</body>
+</html>
