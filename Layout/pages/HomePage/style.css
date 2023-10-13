@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 2.5rem;
+}
+
+.card-category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.btn {
+  justify-content: center;
+  margin-top: 40px;
+  display: flex;
+}
+.relative {
+  padding: 2.5rem;
+}
+#image-text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+
+  text-align: center;
+  align-items: center;
+  padding: 2.5rem;
+}
+#image-text a {
+  max-width: 200%;
+}
+
+h1,
+span {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 40px;
+}
+
+#default-carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn-slider {
+  position: absolute;
+  top: 0;
+  left: 20;
+}
+.top-rating {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-rating {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 2.5rem;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.callary img {
+  margin-bottom: 2.5rem;
+  height: 400px;
+  width: 40rem;
+}
+.callary {
+  display: flex;
+  gap: 2.5rem;
+  padding: 2.5rem;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+.more-gallary {
+  display: flex;
+  gap: 2.5rem;
+}
+
+@media (max-width: 520px) {
+  .more-gallary {
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+  }
+}
