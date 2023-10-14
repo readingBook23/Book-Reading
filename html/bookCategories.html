@@ -28,7 +28,7 @@
 <div class="detailsbar">
 
         <div class="detailsbar-1">
-            <button class="openbtn" onclick="openNav()" on-r="true">☰ Open Sidebar</button>  
+            <button class="openbtn" onclick="openNav()" on-r="false">☰ Open Sidebar</button>  
             <button class="openbtn" >Sort A-Z</button> 
         </div>
 
@@ -47,7 +47,8 @@
 
 <main>
     <div id="mySidebar" class="sidebar">
-      <div>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <div>
         <hr >
         <a href="#">Subject</a>
         <label>
