@@ -1,21 +1,97 @@
-*{
-    list-style: none;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
+  color:aqua ;
 }
 
-body{
-    background-color: whitesmoke;
+/* sidebar */
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s ease;
+  padding-left: 4px; 
+  margin-top:5%;
+}
+
+/* main{
+  margin-top: 50px;
+} */
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: aqua;
+  display: block;
+  transition: 0.5s ease;
+  justify-content: center;
+}
+
+.sidebar input,label {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  transition: 0.5s ease;
+  justify-content: center;
 }
 
 
-.wrapper .sidebar{
-    background-color: aquamarine;
-    position: fixed;
-    top: 0;
-    left:0;
-    width: 30%;
-    height: 100%;
-    padding: 20px 50px;
-    transition: all 0.5 ease;
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+hr{
+  width: 70%;
+}
+
+/* end sidebar */
+
+
+/*    */
+
+
+.detailsbar{
+  margin: 2px 0px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+
+
+.openbtn{
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: aqua;
+  padding: 10px 15px;
+  border: none;
+}
+
+/* .openbtn:hover {
+  background-color: aquamarine;
+} */
+
+.detailsbar .detailsbar-2,.detailsbar-3{
+  padding: 15px 15px; ;
+}
+
+/* end header */
+
+#main {
+  transition: margin-left 0.5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.contant{
+  background-color: aquamarine;
+  width: 100%;
+  height: 500px;
 }
