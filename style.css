@@ -300,28 +300,96 @@ margin: 0.5%;
         margin-top: 10%;
     }
 
-    .form-container {
-        text-align: center;
-    }
 
-    .form-label {
-        font-size: 14px; 
-    }
-
-    .form-control {
-        width: 40%; 
-        height: auto; 
-    }
-    .form-label{
-        padding-left: 180px;
-    }
     .acc {
-        margin-left: 31%;
+        margin-left: 32%;
         color: #000;
 text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 font-family: Syne;
 font-size: 15px;
 font-style: normal;
-line-height: normal;
+padding: 1px
+    }
+    .in{
+        text-align: left;
+    }
+    .blue{
+       background-color: rgba(55, 129, 198, 0.07);
+        stroke-width: 1px;
+        stroke: #FFF;
+        backdrop-filter: blur(6px); 
+        border: #FFF;       
+
     }
     
+    #log{
+        background-color: rgba(55, 129, 198, 0.60);
+        width: 100.74px;
+        height: 35px;
+        color: white;
+        border: 1px solid rgba(55, 129, 198, 0.60);
+    }
+
+    @media screen and (max-width: 767px) {
+        .login-container {
+            margin-right: 50%;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+        }
+        #login{
+            margin-left: 75%;
+        }
+      .acc{
+        margin-right: 70%;
+        white-space: nowrap; 
+        display: block; 
+        margin: 0 auto;
+
+      }
+    
+        .Now {
+            transform: translateX(-0%);
+            margin-left: 90px;
+            white-space: nowrap;
+        }
+        
+
+.or {
+    white-space: nowrap; 
+    display: inline-block; 
+    transform: translateX(-40%); 
+    transition: transform 0.5s ease; 
+    margin-left: 90%;
+}
+
+.line-before,
+.line-after {
+    border-top: 1px solid #000;
+    content: "";
+    display: inline-block;
+    width: 45%;
+    margin: 0 5px;
+}
+.hi{
+    margin-left: 75%;
+    white-space: nowrap; 
+    display: inline-block;
+}
+.we{
+    margin-left: 32%;
+}
+.line{
+    text-decoration: none; 
+}
+.single-word {
+    white-space: nowrap; 
+    display: inline-block; 
+}
+#log{
+align-content: center;   
+
+}
+
+
+    }
