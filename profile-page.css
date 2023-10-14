@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    background-color: #3781C6;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+#navbar #center-logo {
+    text-align: left;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+#center-logo a img {
+    height: 40px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+#navbar a:hover {
+    background-color: #3781C6;
+}
+
+#navbar .dropdown {
+    position: relative;
+}
+
+#navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #3781C6;
+    min-width: 160px;
+    text-align: center;
+}
+
+#navbar .dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+#navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#right-images {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#right-images a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+#sidebar {
+    position: fixed;
+    top: 60px;
+    height: calc(50% - 10px);
+    width: 180px;
+    background-color: #f8f9fa7a;
+    padding: 10px 0;
+    align-items: left;
+    z-index: 1;
+}
+
+#sidebar .nav-link {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#logout {
+    text-align: center;
+}
+
+#logout img {
+    height: 30px;
+}
+
+.page-divider {
+    border-bottom: 2px solid #3781C6;
+    margin: 10px 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+}
+
+h3 {
+    padding-inline-start: 10px;
+}
+
+input[type="text"] {
+    padding-block: 1px;
+    padding-inline: 2px;
+    padding-inline-start:0px;
+    padding-inline-end: 0px;
+}
+
+.btn-primary {
+    background-color: #3781C6;
+    color: #000000;
+    border: none;
+    padding: 15px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 90px;
+    margin-top: 1%;
+    
+    font-size: medium;
+}
+
+.btn-primary:hover {
+    background-color: #142f45;
+}
+
+.btn-secondary {
+    background-color: #3781C6;
+    color: #000000;
+    border: none;
+    padding: 15px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 90px;
+    font-size: medium;
+}
+
+.btn-secondary:hover {
+    background-color: #142f45;
+}
+
+footer {
+    background-color: #3781C6;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-top: 1%;
+    text-align: center;
+    z-index: 2;
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none; /* إزالة التأطير الافتراضي للروابط */
+}
+
+/* تغيير لون الروابط عند تمرير الماوس فوقها إلى اللون الأبيض */
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline; /* إضافة تأطير تحت الرابط عند تمرير الماوس */
+}

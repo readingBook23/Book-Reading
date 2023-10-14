@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>profile</title>
+    <link rel="stylesheet" type="text/css" href="profile-page.css">
+</head>
+<body>
+
+<div id="navbar">
+    <div id="center-logo">
+        <a href="#"><img src="images/logo.png" alt="Your Logo"></a>
+    </div>
+    <div class="dropdown">
+        <a href="#" id="link1">Home</a>
+        <div class="dropdown-content">
+            <a href="new_release.html">New Release</a>
+            <a href="books.html">Books</a>
+            <a href="books.html">Blog</a>
+            <a href="books.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div id="right-images">
+        <a href="page1.html">
+            <img src="images/profile.png" alt="صورة 1" class="img-link" width="35px">
+        </a>
+        <a href="page2.html">
+            <img src="images/wishlist.png" alt="صورة 2" class="img-link">
+        </a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row" >
+        <nav id="sidebar" class="col-md-3 col-lg-2 col-sm-12 d-md-block bg-light">
+            <h3>Your Bio :</h3>
+            <div class="bio-input">
+                <input type="text" class="form-control" placeholder="Enter Your Bio">
+            </div>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-align: center; margin-left: 0;">
+                        <img src="images/wishlist.png" alt=" Favourites" width="20" height="20" >
+                        Favourites
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-align: left; margin-left: 0;">
+                        <img src="images/download.png" alt="Downloads" width="20" height="20">
+                        Downloads
+                    </a>
+                </li>
+                <div class="page-divider" style="text-align: left; margin-left: 0;"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-align: left; margin-left: 0;">
+                        <img src="images/clock.png" alt="Clear History" width="20" height="20">
+                        Clear History
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-align: left; margin-left: 0;">
+                        <img src="images/raiting.png" alt="My Rating" width="20" height="20">
+                        My Rating
+                    </a>
+                </li>
+                <div class="page-divider" style="text-align: left; margin-left: 0;"></div>
+                <li class="nav-item" id="logout">
+                    <a class="nav-link" href="#" style="text-align: left;">
+                        <img src="images/Logout.png" alt=" Logout" width="20" height="20">
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main id="content" class="col-md-9 col-sm-12 ms-sm-auto col-lg-10 px-md-4">
+            <div style="text-align: center; padding-top: 50px; margin-left: 125px;">
+                <img src="images/profilepicture.png" alt="صورة الملف الشخصي"
+                     style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #3781C6; margin: 0 auto; ">
+                <div style="margin-top: 20px; text-align: center;">
+                    <div style="font-size: 24px; font-weight: bold;">User Name</div>
+                    <div style="font-size: 20px;">Email</div>
+                </div>
+                <div style="margin-top: 20px; text-align: center;">
+                    <button class="btn btn-primary btn-lg" style="margin: 10px;">Share Profile</button>
+                    <a href="edit-profile.html">
+                        <button class="btn btn-secondary btn-lg" style="margin: 10px;">Edit Profile</button>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<footer style="background-color: #3781C6; color: #ffffff; padding: 10px 0; margin-top: 1%; text-align: center;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="display: flex; flex-direction: column; align-items: center;">
+                <a href="#"><img src="images/Logo.png" alt="Logo" style="height: 40px;"></a>
+                <div style="display: flex; align-items: center; margin: 10px 0;">
+                    <a href="#"><img src="images/linkedin.png" alt="Linkedin" style="height: 30px; margin: 0 10px;"></a>
+                    <a href="#"><img src="images/twitter.png" alt="Twitter" style="height: 30px; margin: 0 10px;"></a>
+                    <a href="mailto:your.email@example.com"><img src="images/email.png" alt="Email"
+                                                              style="height: 30px; margin: 0 10px;"></a>
+                </div>
+                <ul style="list-style: none; padding: 0; display: flex;">
+                    <li style="margin: 0 10px;"><a href="#">HOME</a></li>
+                    <li style="margin: 0 10px;"><a href="#">ABOUT US</a></li>
+                    <li style="margin: 0 10px;"><a href="#">BOOKS</a></li>
+                    <li style="margin: 0 10px;"><a href="#">NEW RELEASE</a></li>
+                    <li style="margin: 0 10px;"><a href="#">CONTACT US</a></li>
+                    <li style="margin: 0 10px;"><a href="#">BLOG</a></li>
+                </ul>
+                <div style="margin-top: 10px; font-size: 10px;">
+                    &copy; 2023 Reading Bank. All Rights Reserved. Privacy | Terms of Service
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
