@@ -3,61 +3,63 @@
     {
       "id":1,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTo89ZuXSqrCK-k75b6cFODdRiI8fgD0kjKhcUbFaWrlcPh1pJMevhpaicG63B",
-      "book-name": "Science Fiction",
+      "bookname": "Science Fiction",
       "Rating": 4.6,
-      "auther-name": "Frank Herbert",
-      "Descriptions": "An epic science fiction novel about a young man named Paul Atreides who is destined to become the leader of a desert planet called Arrakis, the only known source of the spice melange, the most valuable substance in the universe."
+      "authername": "Frank Herbert",
+      "Descriptions": "An epic science fiction novel about a young man named Paul Atreides who is destined to become the leader of a desert planet called Arrakis, the only known source of the spice melange, the most valuable substance in the universe.",
+      "imgauther":"https://th.bing.com/th/id/R.1d08d4e958019e1ef7764661b7af0dfb?rik=ZqxdTyumECuo0A&pid=ImgRaw&r=0"
     }
 ,
     {
       "id":2,
       "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxMedk0ADhACUBhXfWV5KQu8EBxeVD2kPuBe1BRANeubpIcB3K246SKOvR0EyC",
-      "book-name": "The Lord of the Rings",
+      "bookname": "The Lord of the Rings",
       "Rating": 4.8,
-      "auther-name": "J.R.R. Tolkien",
+      "authername": "J.R.R. Tolkien",
       "Descriptions": "An epic fantasy trilogy about a group of heroes who set out to destroy the One Ring, an evil artifact created by the Dark Lord Sauron."
     }
     ,
     {
       "id":3,
       "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTHDLojykRWniRTTi9sej7NTNGo0qgV7VDkRTIE4icosNHZ9od8UatVSoUeWJQN",
-      "book-name": "Pride and Prejudice",
+      "bookname": "Pride and Prejudice",
       "Rating": 4.7,
-      "auther-name": "Jane Austen",
+      "authername": "Jane Austen",
       "Descriptions": "A classic romantic comedy about a young woman named Elizabeth Bennet and her relationship with Mr. Darcy, a wealthy and proud man."
     }
     ,
     {
       "id":4,
       "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT3oo1xh7YH9vYoY1IADLuF66fJcIcL9wvvrwVN6jYs9PUNPFkp1rxSJGbcOqfx",
-      "book-name": "The Great Gatsby",
+      "bookname": "The Great Gatsby",
       "Rating": 4.6,
-      "auther-name": "F. Scott Fitzgerald",
+      "authername": "F. Scott Fitzgerald",
       "Descriptions": "A tragic love story about Jay Gatsby, a wealthy man who throws lavish parties in an attempt to win back the love of his life, Daisy Buchanan."
     }
     ,
     {
       "id":5,
       "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSu2evEjrFej-dUQ0YnT02ANCTeS4TG0CEAkk0gsLzYDtMC4IVyaFaClEXWIsfd",
-      "book-name": "1984",
+      "bookname": "1984",
       "Rating": 4.6 ,
-      "auther-name": "George Orwell",
+      "authername": "George Orwell",
       "Descriptions": "A dystopian novel about a future world where the government controls every aspect of people's lives."
+      
     }
     ,
     {
       "id":6,
       "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQkaSds-ogamAa9D250vy-2FiuhrBilNOZUNnwXHh5yOqRckgqXWFonGn3w77UJ",
-      "book-name": "The Lord of the Rings",
+      "bookname": "The Lord of the Rings",
       "Rating": 4.6 ,
-      "auther-name": "J.R.R. Tolkien",
+      "authername": "J.R.R. Tolkien",
       "Descriptions": "An epic fantasy trilogy about a group of heroes who set out to destroy the One Ring, an evil artifact created by the Dark Lord Sauron."
     }
     ,
     {
       "id":7,
       "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxMedk0ADhACUBhXfWV5KQu8EBxeVD2kPuBe1BRANeubpIcB3K246SKOvR0EyC",
-      "book-name": " Harry Potter and the Sorcerer's Stone",
+      "bookname": " Harry Potter and the Sorcerer's Stone",
       "Rating": 4.7 ,
       "auther-name": "J.K. Rowling",
       "Descriptions": "The first book in the Harry Potter series, about a young boy who discovers that he is a wizard and attends Hogwarts School of Witchcraft and Wizardry."
