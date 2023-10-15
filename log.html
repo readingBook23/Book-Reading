@@ -3,13 +3,12 @@
 <head>
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 <body>
     <div class="login-container">
         <h1 class="we">Welcome</h1>
         <p class="hi">Login With Email</p>
-        <form method="post">
+        <form method="post" id="form">
             <fieldset>
                 <legend>Email:</legend>
                 <div class="email-input">
@@ -33,11 +32,51 @@
                 </div>
             </fieldset>
             <br>
-            <button type="submit" id="login" >LOGIN</button>
+            <button type="submit" id="login">LOGIN</button>
         </form>
         <br>
         <p class="or"> <span class="line-before"></span> or <span class="line-after"></span> </p>
-        <p class="Now" >Don't have an account ?  <a href="signup.html" class="line"><span style="font-weight: bold;">Register Now</span></a></p>
+        <p class="Now">Don't have an account?  <a href="signup.html" class="line"><span style="font-weight: bold;">Register Now</span></a></p>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+            import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
+
+            // Your web app's Firebase configuration
+            const firebaseConfig = {
+                apiKey: "AIzaSyBxNUoyWLm_ufJvO0G2dFvmzk2nGsubR1o",
+                authDomain: "read-859c2.firebaseapp.com",
+                projectId: "read-859c2",
+                storageBucket: "read-859c2.appspot.com",
+                messagingSenderId: "413272972282",
+                appId: "1:413272972282:web:c218a2ce0a8d38a6ed6243",
+                measurementId: "G-ZQHHLE43LR"
+            };
+
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const auth = getAuth();
+
+            var email = document.getElementById("email");
+            var password = document.getElementById("password");
+
+            var form = document.getElementById("form");
+
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                signInWithEmailAndPassword(auth, email.value, password.value)
+                    .then(function (userCredential) {
+                        alert('User logged in successfully.');
+                        // يمكنك توجيه المستخدم إلى صفحة أخرى هنا.
+                    })
+                    .catch(function (error) {
+                        alert("Error: " + error.message);
+                    });
+            });
+        </script>
     </div>
 </body>
 </html>

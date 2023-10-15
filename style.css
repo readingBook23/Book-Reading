@@ -189,6 +189,8 @@ font-size: 50px;
 #h2{
 color: #3781C6;
 text-align: center;
+justify-content: center;
+align-content: center;
 font-family: Outfit;
 font-size: 50px;
 font-style: normal;
@@ -329,6 +331,12 @@ padding: 1px
         color: white;
         border: 1px solid rgba(55, 129, 198, 0.60);
     }
+    #signupinp{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 40%;
+    }
 
     @media screen and (max-width: 767px) {
         .login-container {
@@ -341,8 +349,9 @@ padding: 1px
             margin-left: 75%;
         }
       .acc{
-        margin-right: 70%;
-        white-space: nowrap; 
+        justify-content: left;
+      text-align: left;    
+     white-space: nowrap; 
         display: block; 
         margin: 0 auto;
 
@@ -390,6 +399,11 @@ padding: 1px
 align-content: center;   
 
 }
-
+#signupinp{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+}
 
     }
