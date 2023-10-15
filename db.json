@@ -3,12 +3,12 @@
     {
       "id":1,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTo89ZuXSqrCK-k75b6cFODdRiI8fgD0kjKhcUbFaWrlcPh1pJMevhpaicG63B",
-      "book-name": "Science Fiction",
+      "bookName": "Science Fiction",
       "Rating": 4.6,
       "auther-name": "Frank Herbert",
       "Descriptions": "An epic science fiction novel about a young man named Paul Atreides who is destined to become the leader of a desert planet called Arrakis, the only known source of the spice melange, the most valuable substance in the universe."
     }
-,
+    ,
     {
       "id":2,
       "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxMedk0ADhACUBhXfWV5KQu8EBxeVD2kPuBe1BRANeubpIcB3K246SKOvR0EyC",
