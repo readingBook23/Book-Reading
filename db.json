@@ -1014,20 +1014,343 @@
     }  
     ,
     {
-      "id":73,
-      "image": "",
-      "bookname": "",
+      "id":96,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1684817273i/75500824.jpg",
+      "bookname": "Alex Wise vs. the End of the World",
       "Rating": 0 ,
-      "authername": "",
-      "Descriptions": "",
+      "authername": "Terry J. Benton-Walker",
+      "Descriptions": "Welcome to the summer of the apocalypse. One 12-year-old boy leads the charge against the forces of evil as he tries to stop the Four Horsemen from taking over the world in the start to a wildly funny and addictive fantasy series about accepting yourself and finding your inner hero.",
       "categories":"Childrens",
-      "autherDescription":"",
-      "autherimage":""
+      "autherDescription":"TERRY J. BENTON-WALKER grew up in rural GA and now lives in Atlanta with his husband and son, where he writes fantasy and horror for adults, young adults, and children. He has an Industrial Engineering degree from Georgia Tech and an MBA from Georgia State",
+      "autherimage":"https://images.gr-assets.com/authors/1659560531p5/21611778.jpg"
     }  
-     
+    ,
+    {
+      "id":96,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1684817273i/75500824.jpg",
+      "bookname": "Alex Wise vs. the End of the World",
+      "Rating": 0 ,
+      "authername": "Terry J. Benton-Walker",
+      "Descriptions": "Welcome to the summer of the apocalypse. One 12-year-old boy leads the charge against the forces of evil as he tries to stop the Four Horsemen from taking over the world in the start to a wildly funny and addictive fantasy series about accepting yourself and finding your inner hero.",
+      "categories":"Childrens",
+      "autherDescription":"TERRY J. BENTON-WALKER grew up in rural GA and now lives in Atlanta with his husband and son, where he writes fantasy and horror for adults, young adults, and children. He has an Industrial Engineering degree from Georgia Tech and an MBA from Georgia State",
+      "autherimage":"https://images.gr-assets.com/authors/1659560531p5/21611778.jpg"
+    } 
+    ,
+    {
+      "id":97,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678754842i/75593832.jpg",
+      "bookname": "Race to Krakatoa",
+      "Rating": 0 ,
+      "authername": "J.D. Peabody",
+      "Descriptions": "Mystery and danger abound in book two of The Inkwell Chronicles, a fast-paced middle-grade fantasy series about magic ink, a secret society, and a boy who learns to make his mark.",
+      "categories":"Childrens",
+      "autherDescription":"J.D. Peabody has always loved stories, and his career has been spent improving his ability to write and tell them. For nearly two decades, he wrote in the context of advertising and public relations agencies, where he gained an appreciation (or at least a tolerance) for being edited. He then switched fields entirely, attending seminary, helping start a new church and learning the discipline of writing for weekly sermon deadlines.",
+      "autherimage":"https://images.gr-assets.com/authors/1641662345p5/22017141.jpg"
+    } 
+    ,
+    {
+      "id":98,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1683903185i/129164287.jpg",
+      "bookname": "The Cursed Moon",
+      "Rating": 0 ,
+      "authername": "Angela Cervantes",
+      "Descriptions": "Celebrated author Angela Cervantes' brand new novel combines a chilling ghost story with her award-winning, heartfelt storytelling style.",
+      "categories":"Childrens",
+      "autherDescription":"Angela Cervantes is the acclaimed Mexican American author of several popular children's novels including Lety Out Loud, which won a 2020 Pura Belpré Honor Award. ",
+      "autherimage":"https://images.gr-assets.com/authors/1693240261p5/6863231.jpg"
+    } 
+    ,
+    {
+      "id":99,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1653948895i/61197270.jpg",
+      "bookname": "Arazan'sWolves",
+      "Rating": 0 ,
+      "authername": "John Flanagan",
+      "Descriptions": "Will and Maddie are sent to neighbouring kingdom Celtica to investigate reports of terrifying direwolves – an ancient species thought to be extinct. What they discover is even more of a threat – a sorceress who has enslaved direwolves and Wargals to her will and is building an army of creatures both living and supernatural.",
+      "categories":"Childrens",
+      "autherDescription":"Librarian Note: There is more than one author in the GoodReads database with this name. See this thread for more information.      ",
+      "autherimage":"https://images.gr-assets.com/authors/1204665476p5/34049.jpg"
+    } 
+    ,
+    {
+      "id":100,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680126631i/61855593.jpg",
+      "bookname": "Dog Man: Twenty Thousand Fleas Under the Sea",
+      "Rating": 0 ,
+      "authername": "Dav Pilkey",
+      "Descriptions": "DOG MAN IS BACK! The highly anticipated new graphic novel in the #1 worldwide bestselling series starring everyone's favorite canine superhero by award-winning author and illustrator Dav Pilkey! ",
+      "categories":"Childrens",
+      "autherDescription":"David (Dav) Pilkey (b. March 4, 1966), is a popular children's author and artist. Pilkey is best known as the author and illustrator of the Captain Underpants book series. He lives near Seattle, Washington with his wife, Sayuri.",
+      "autherimage":"https://images.gr-assets.com/authors/1520538416p5/33280.jpg"
+    } 
+    ,
+    {
+      "id":101,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634839883i/56506278.jpg",
+      "bookname": "Nattkorpen",
+      "Rating": 0 ,
+      "authername": "Johan Rundberg",
+      "Descriptions": "Vintern håller Stockholm i ett järngrepp, tullarna är igensnöade och det går varken att ta sig in eller ut ur staden.",
+      "categories":"Childrens",
+      "autherDescription":"Johan Rundberg föddes 1973 i Knislinge i Skåne, men bosatte sig som vuxen i Stockholm. Han upptäckte glädjen i att skriva och läsa under tidiga skolår, och var en flitig biblioteksbesökare. Så småningom läste han litteraturvetenskap och tv-produktion på universitetet. Det ledde honom till jobb på SVT och MTG. Från sin utbildningstid hade han även erfarenhet av att jobba med bildsatta manus. Därifrån hämtade han inspiration till att också prova att göra bilderböcker.",
+      "autherimage":"https://images.gr-assets.com/authors/1615818144p5/6654198.jpg"
+    } 
+    ,
+    {
+      "id":102,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1514989256i/37804539.jpg",
+      "bookname": "Invisible",
+      "Rating": 0 ,
+      "authername": "Eloy Moreno",
+      "Descriptions": "Emotiva, conmovedora, diferente... Invisible narra, a través de los ojos de un niño, una historia que podría ser la de cualquiera de nosotros.      ",
+      "categories":"Childrens",
+      "autherDescription":"Eloy Moreno Olaria es un escritor español que se ha dado a conocer tras la publicación de su primera novela, titulada El bolígrafo de gel verde.      ",
+      "autherimage":"https://images.gr-assets.com/authors/1395180222p5/4710057.jpg"
+    } 
+
+    ,
+    {
+      "id":103,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621895323i/57468690.jpg",
+      "bookname": "Good-bye Stacey, Good-bye",
+      "Rating": 0 ,
+      "authername": "Gabriela Epstein",
+      "Descriptions": "Stacey McGill is moving back to New York! That means no more Stoneybrook Middle School, no more Charlotte Johanssen, and worst of all... no more Baby-sitters Club. Stacey's friends are crushed when they hear that Stacey's moving, especially Claudia. Stacey is her best friend.",
+      "categories":"Childrens",
+      "autherDescription":"Gabriela Epstein (she/they) is a NYT bestselling comic artist based in Austin, TX. Originally from Philly, she studied oil painting at the PA Academy of the Fine Arts before getting her BFA in Illustration from the Rhode Island School of Design. She later worked as a character designer in TV animation before switching to comics.",
+      "autherimage":"https://images.gr-assets.com/authors/1662865772p5/21107788.jpg"
+    } 
+    ,
+    {
+      "id":104,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554006152i/6.jpg",
+      "bookname": "Harry Potter and the Goblet of Fire",
+      "Rating": 0 ,
+      "authername": "J.K. Rowling",
+      "Descriptions": "It is the summer holidays and soon Harry Potter will be starting his fourth year at Hogwarts School of Witchcraft and Wizardry. Harry is counting the days: there are new spells to be learnt, more Quidditch to be played, and Hogwarts castle to continue exploring. But Harry needs to be careful - there are unexpected dangers lurking...",
+      "categories":"Young",
+      "autherDescription":"Although she writes under the pen name J.K. Rowling, pronounced like rolling, her name when her first Harry Potter book was published was simply Joanne Rowling.",
+      "autherimage":"https://images.gr-assets.com/authors/1596216614p5/1077326.jpg"
+    } 
+    ,
+    {
+      "id":105,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1342493368i/3636.jpg",
+      "bookname": "The Giver",
+      "Rating": 0 ,
+      "authername": "Lois Lowry      ",
+      "Descriptions": "At the age of twelve, Jonas, a young boy from a seemingly utopian, futuristic world, is singled out to receive special training from The Giver, who alone holds the memories of the true joys and pain of life.",
+      "categories":"Young",
+      "autherDescription":"I’ve always felt that I was fortunate to have been born the middle child of three. My older sister, Helen, was very much like our mother: gentle, family-oriented, eager to please. ",
+      "autherimage":"https://images.gr-assets.com/authors/1348162077p5/2493.jpg"
+    } 
+    ,
+    {
+      "id":106,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361039443i/41865.jpg",
+      "bookname": "Twilight",
+      "Rating": 0 ,
+      "authername": "Stephenie Meyer",
+      "Descriptions": "Second, there was a part of him - and I didn't know how dominant that part might be - that thirsted for my blood.      ",
+      "categories":"Young",
+      "autherDescription":"Stephenie Meyer is the author of the bestselling Twilight series, The Host, and The Chemist. Twilight was one of 2005's most talked about novels and within weeks of its release the book debuted at #5 on The New York Times bestseller list.",
+      "autherimage":"https://images.gr-assets.com/authors/1596739281p5/941441.jpg"
+    } 
+    ,
+    {
+      "id":107,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361039438i/1162543.jpg",
+      "bookname": "Breaking Dawn",
+      "Rating": 0 ,
+      "authername": "Stephenie Meyer",
+      "Descriptions": "WHEN YOU LOVED THE ONE WHO WAS KILLING YOU, IT LEFT YOU NO OPTIONS. How could you run, how could you fight, when doing so would hurt that beloved one? If your life was all you had to give, how could you not give it? If it was someone you truly loved?",
+      "categories":"Young",
+      "autherDescription":"Stephenie Meyer is the author of the bestselling Twilight series, The Host, and The Chemist. Twilight was one of 2005's most talked about novels and within weeks of its release the book debuted at #5 on The New York Times bestseller list.",
+      "autherimage":"https://images.gr-assets.com/authors/1596739281p5/941441.jpg"
+    } 
+    ,
+    {
+      "id":108,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361038355i/428263.jpg",
+      "bookname": "Eclipse",
+      "Rating": 0 ,
+      "authername": "Stephenie Meyer",
+      "Descriptions": "As Seattle is ravaged by a string of mysterious killings and a malicious vampire continues her quest for revenge, Bella once again finds herself surrounded by danger. ",
+      "categories":"Young",
+      "autherDescription":"Stephenie Meyer is the author of the bestselling Twilight series, The Host, and The Chemist. Twilight was one of 2005's most talked about novels and within weeks of its release the book debuted at #5 on The New York Times bestseller list.",
+      "autherimage":"https://images.gr-assets.com/authors/1596739281p5/941441.jpg"
+    } 
+    ,
+    {
+      "id":109,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1432730315i/256683.jpg",
+      "bookname": "City of Bones",
+      "Rating": 0 ,
+      "authername": "Cassandra Clare",
+      "Descriptions": "hen fifteen-year-old Clary Fray heads out to the Pandemonium Club in New York City, she hardly expects to witness a murder― much less a murder committed by three teenagers covered with strange tattoos and brandishing bizarre weapons. ",
+      "categories":"Young",
+      "autherDescription":"Cassandra Clare was born to American parents in Tehran, Iran and spent much of her childhood travelling the world with her family, including one trek through the Himalayas as a toddler where she spent a month living in her father’s backpack. She lived in France, England and Switzerland before she was ten years old.",
+      "autherimage":"https://images.gr-assets.com/authors/1689347318p5/150038.jpg"
+    } 
+    ,
+    {
+      "id":110,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309211401i/6310.jpg",
+      "bookname": "Charlie and the Chocolate Factory",
+      "Rating": 0 ,
+      "authername": "Roald Dahl",
+      "Descriptions": "Charlie Bucket's wonderful adventure begins when he finds one of Mr. Willy Wonka's precious Golden Tickets and wins a whole day inside the mysterious chocolate factory. Little does he know the surprises that are in store for him!",
+      "categories":"Young",
+      "autherDescription":"Roald Dahl was a British novelist, short story writer and screenwriter of Norwegian descent, who rose to prominence in the 1940's with works for both children and adults, and became one of the world's bestselling authors.      ",
+      "autherimage":"https://images.gr-assets.com/authors/1311554908p5/4273.jpg"
+    }
+    ,
+    {
+      "id":111,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1519022209i/4556058.jpg",
+      "bookname": "The Last Olympian",
+      "Rating": 0 ,
+      "authername": "Rick Riordan",
+      "Descriptions": "All year the half-bloods have been preparing for battle against the Titans, knowing the odds of victory are grim. Kronos's army is stronger than ever, and with every god and half-blood he recruits, the evil Titan's power only grows.",
+      "categories":"Young",
+      "autherDescription":"Rick Riordan is the #1 New York Times bestselling author of many books, including the Percy Jackson series. You can follow him on Twitter and via his official website.      ",
+      "autherimage":"https://images.gr-assets.com/authors/1679846356p5/15872.jpg"
+    } 
+    ,
+    {
+      "id":112,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1615094578i/8127.jpg",
+      "bookname": "Anne of Green Gables",
+      "Rating": 0 ,
+      "authername": "L.M. Montgomery",
+      "Descriptions": "This heartwarming story has beckoned generations of readers into the special world of Green Gables, an old-fashioned farm outside a town called Avonlea. ",
+      "categories":" English ",
+      "autherDescription":"Lucy Maud Montgomery was a Canadian author, best known for a series of novels beginning with Anne of Green Gables, published in 1908.",
+      "autherimage":"https://images.gr-assets.com/authors/1188896723p5/5350.jpg"
+    } 
 
 
+,
 
-
+    {
+      "id":113,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361038355i/428263.jpg",
+      "bookname": "Eclipse",
+      "Rating": 0 ,
+      "authername": "Stephenie Meyer",
+      "Descriptions": "As Seattle is ravaged by a string of mysterious killings and a malicious vampire continues her quest for revenge, Bella once again finds herself surrounded by danger. ",
+      "categories":" English ",
+      "autherDescription":"Stephenie Meyer is the author of the bestselling Twilight series, The Host, and The Chemist. Twilight was one of 2005's most talked about novels and within weeks of its release the book debuted at #5 on The New York Times bestseller list.",
+      "autherimage":"https://images.gr-assets.com/authors/1596739281p5/941441.jpg"
+    } 
+    ,
+    {
+      "id":114,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1432730315i/256683.jpg",
+      "bookname": "City of Bones",
+      "Rating": 0 ,
+      "authername": "Cassandra Clare",
+      "Descriptions": "hen fifteen-year-old Clary Fray heads out to the Pandemonium Club in New York City, she hardly expects to witness a murder― much less a murder committed by three teenagers covered with strange tattoos and brandishing bizarre weapons. ",
+      "categories":" English ",
+      "autherDescription":"Cassandra Clare was born to American parents in Tehran, Iran and spent much of her childhood travelling the world with her family, including one trek through the Himalayas as a toddler where she spent a month living in her father’s backpack. She lived in France, England and Switzerland before she was ten years old.",
+      "autherimage":"https://images.gr-assets.com/authors/1689347318p5/150038.jpg"
+    } 
+    ,
+    {
+      "id":115,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309211401i/6310.jpg",
+      "bookname": "Charlie and the Chocolate Factory",
+      "Rating": 0 ,
+      "authername": "Roald Dahl",
+      "Descriptions": "Charlie Bucket's wonderful adventure begins when he finds one of Mr. Willy Wonka's precious Golden Tickets and wins a whole day inside the mysterious chocolate factory. Little does he know the surprises that are in store for him!",
+      "categories":" English ",
+      "autherDescription":"Roald Dahl was a British novelist, short story writer and screenwriter of Norwegian descent, who rose to prominence in the 1940's with works for both children and adults, and became one of the world's bestselling authors.      ",
+      "autherimage":"https://images.gr-assets.com/authors/1311554908p5/4273.jpg"
+    }
+    ,
+    {
+      "id":116,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1519022209i/4556058.jpg",
+      "bookname": "The Last Olympian",
+      "Rating": 0 ,
+      "authername": "Rick Riordan",
+      "Descriptions": "All year the half-bloods have been preparing for battle against the Titans, knowing the odds of victory are grim. Kronos's army is stronger than ever, and with every god and half-blood he recruits, the evil Titan's power only grows.",
+      "categories":" English ",
+      "autherDescription":"Rick Riordan is the #1 New York Times bestselling author of many books, including the Percy Jackson series. You can follow him on Twitter and via his official website.      ",
+      "autherimage":"https://images.gr-assets.com/authors/1679846356p5/15872.jpg"
+    } 
+    ,
+    {
+      "id":117,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1615094578i/8127.jpg",
+      "bookname": "Anne of Green Gables",
+      "Rating": 0 ,
+      "authername": "L.M. Montgomery",
+      "Descriptions": "This heartwarming story has beckoned generations of readers into the special world of Green Gables, an old-fashioned farm outside a town called Avonlea. ",
+      "categories":" English ",
+      "autherDescription":"Lucy Maud Montgomery was a Canadian author, best known for a series of novels beginning with Anne of Green Gables, published in 1908.",
+      "autherimage":"https://images.gr-assets.com/authors/1188896723p5/5350.jpg"
+    } 
+    ,
+    {
+      "id":118,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1336743682i/13637412.jpg",
+      "bookname": "ساق البامبو",
+      "Rating": 0 ,
+      "authername": "سعود السنعوسي",
+      "Descriptions": "لماذا كان جلوسي تحت الشجرة يزعج أمي؟ أتراها كانت تخشى أن تنبت لي جذور تضرب في عمق الأرض ما يجعل عودتي إلى بلاد أبي أمراً مستحيلاً؟..ربما، ولكن، حتى الجذور لا تعني شيئاً أحياناً.",
+      "categories":" Arabic ",
+      "autherDescription":"كاتب وروائي كويتي",
+      "autherimage":"https://images.gr-assets.com/authors/1559890264p5/4603829.jpg"
+    } 
+    ,
+    {
+      "id":119,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1503755688i/3438000.jpg",
+      "bookname": "ثلاثية غرناطة",
+      "Rating": 0 ,
+      "authername": "Radwa Ashour",
+      "Descriptions": "وتدور الأحداث في مملكة غرناطة بعد سقوط جميع الممالك الإسلامية في الأندلس، و تبدأ أحداث الثلاثية في عام 1491م، وهو العام الذي سقطت فيه غرناطة بإعلان المعاهدة التي تنازل بمقتضاها (أبو عبد الله محمد الصغير) آخر ملوك غرناطة عن ملكه لملكي قشتالة وأراجون، وتنتهى بمخالفة آخر أبطالها الأحياء (عليّ) لقرار ترحيل المسلمين حينما يكتشف أن الموت في الرحيل عن الأندلس و ليس في البقاء.",
+      "categories":"Arabic",
+      "autherDescription":"Radwa Ashour (Arabic: رضوى عاشور) was an Egyptian writer and scholar. Ashour had published 7 novels, an autobiographical work, 2 collections of short stories and 5 criticism books. Part I of her Granada Trilogy won the Cairo International Book Fair “1994 Book of the Year Award.",
+      "autherimage":"https://images.gr-assets.com/authors/1274768270p5/1424397.jpg"
+    } 
+    ,
+    {
+      "id":120,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1485105416i/16031620.jpg",
+      "bookname": "الفيل الأزرق",
+      "Rating": 0 ,
+      "authername": "أحمد مراد",
+      "Descriptions": "في 8 غرب، القسم الذي يقرّر مَصير مُرتكبي الجرائم، يُقابل صديقاً قديماً يحمل إليه ماضياً جاهد طويلاً لينساه، ويصبح مَصيره فجأة بين يدي يحيى..",
+      "categories":"Arabic",
+      "autherDescription":"كاتب مصري من مواليد القاهرة 1978، تخرّج في مدرسة ليسيه الحرّية بباب اللوق عام 2006 قبل أن يلتحق بالمعهد العالي للسينما ليدرس التصوير السينمائي، ",
+      "autherimage":"https://images.gr-assets.com/authors/1227520027p5/1633682.jpg"
+    } 
+    ,
+    {
+      "id":121,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1265525892i/7704143.jpg",
+      "bookname": "تراب الماس",
+      "Rating": 0 ,
+      "authername": "أحمد مراد",
+      "Descriptions": "فيرتيجو يتّخذ أحمد مراد من الجريمة خلفية تكشف بأسلوب مشوّق كواليس المجتمع و الفساد المستشري وسط كل طبقاته.. وهو بذلك يؤّكد قواعد النوع الروائي الذي أصبح رائدًا له",
+      "categories":"Arabic",
+      "autherDescription":"كاتب مصري من مواليد القاهرة 1978، تخرّج في مدرسة ليسيه الحرّية بباب اللوق عام 2006 قبل أن يلتحق بالمعهد العالي للسينما ليدرس التصوير السينمائي، ",
+      "autherimage":"https://images.gr-assets.com/authors/1227520027p5/1633682.jpg"
+    } 
+    ,
+    {
+      "id":122,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1403045796i/20317106.jpg",
+      "bookname": "هيبتا",
+      "Rating": 0 ,
+      "authername": "محمد صادق",
+      "Descriptions": "تأخذنا رواية (هيبتا) إلي ذلك العالم الذي أهلكه الجميع بحثا ..ذلك العالم الذي رغم تكرار قصصه ورواياته إلا أن الجميع فيه يقع في نفس الأخطاء، ويعيد نفس الأحداث، و يتألم نفس الألم ..",
+      "categories":"Arabic",
+      "autherDescription":" محمد صادق ,روائي مصري من مواليد 1987 صدرت روايته الأولي  طه الغريب  في عام 2010 ,ثم  بضع ساعات في يوم ما  عام 2012 , و في عام 2014 صدرت روايته الثالثة  هيبتا  التي احتلت قوائم الأكثر مبيعا منذ صدورها كما سيتم تحويلها لفيلم سينمائي , ",
+      "autherimage":"https://images.gr-assets.com/authors/1581425542p5/2994581.jpg"
+    } 
   ]}
     
