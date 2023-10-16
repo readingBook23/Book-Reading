@@ -215,7 +215,7 @@ function get2(id = " ") {
 
                         <div class="card-front__bt">
                             <p class="card-front__text-view card-front__text-view--city">
-                                View me
+                               ${data["Rating"]}
                             </p>
                         </div>
                     </div>
@@ -242,31 +242,67 @@ function get2(id = " ") {
     </section>
                     
                   `;
+      const starRating = generateStarRating(data["Rating"]);
+      cardElement.querySelector(".card-front__bt").appendChild(starRating);
 
       main.appendChild(cardElement);
     });
 }
 
-// function vv(data){
-//   if(data.Rating > 3){
-
-//   }
-// }
-
 {
-  /* <svg
-class="w-4 h-4 text-yellow-300 mr-1"
-aria-hidden="true"
-xmlns="http://www.w3.org/2000/svg"
-fill="currentColor"
-viewBox="0 0 22 20"
->
-<path
-  d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-/>
-</svg> */
 }
 
 function wish(data) {
   console.log(data);
 }
+function generateStarRating(rating) {
+  const ratingDiv = document.createElement("div");
+  ratingDiv.classList.add("starrating");
+
+  for (let i = 1; i <= 5; i++) {
+    const starIcon = document.createElement("span");
+    starIcon.classList.add("star");
+    if (i <= rating) {
+      starIcon.innerHTML = "&#9733;"; // Filled star (you can use your preferred star icon)
+    } else {
+      starIcon.innerHTML = "&#9734;"; // Empty star (you can use your preferred star icon)
+    }
+    ratingDiv.appendChild(starIcon);
+  }
+
+  return ratingDiv;
+}
+
+const ratingElement = document.getElementById("rating");
+const editRatingButton = document.getElementById("editRatingButton");
+
+// Function to update the rating
+function updateRating(newRating) {
+  ratingElement.textContent = newRating;
+  //   يمكنك هنا إرسال طلب إلى الخادم لتحديث التقييم أيضًا
+  fetch("YOUR_API_ENDPOINT", {
+    method: "PUT",
+    body: JSON.stringify({ newRating }),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      // معالجة الاستجابة من الخادم هنا
+    });
+}
+
+// إضافة مستمع للنقر على الزر
+editRatingButton.addEventListener("click", () => {
+  const newRating = prompt("Enter a new rating (1-5):");
+  if (newRating !== null) {
+    newRating = parseInt(newRating);
+    if (!isNaN(newRating) && newRating >= 1 && newRating <= 5) {
+      // تحديث التقييم إذا تم إدخال قيمة صحيحة
+      updateRating(newRating);
+    } else {
+      alert("Please enter a valid rating between 1 and 5.");
+    }
+  }
+});

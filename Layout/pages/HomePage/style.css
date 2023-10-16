@@ -5,6 +5,7 @@
 .continer {
   width: 100%;
   height: 100vh;
+  text-align: center;
 }
 
 .navs {
@@ -13,7 +14,8 @@
 }
 
 #navbar-user ul {
-  background: linear-gradient(to left, #07976e 0%, #00c9ff 100%);
+  /* background: linear-gradient(to left, #07976e 0%, #00c9ff 100%); */
+  background-color: transparent;
 }
 
 .navs a img {
@@ -70,7 +72,7 @@
 }
 .btn {
   justify-content: center;
-
+  color: white;
   margin-bottom: 20px;
   display: flex;
 }
@@ -91,6 +93,21 @@
 }
 #image-text a {
   max-width: 200%;
+}
+.button a {
+  /* background: linear-gradient(to left, #07976e 0%, #00c9ff 100%); */
+  border-radius: 20px;
+  z-index: 999;
+  color: white;
+}
+.button {
+  background: linear-gradient(to left, #07976e 0%, #00c9ff 100%);
+  border-radius: 20px;
+  z-index: 999;
+  color: white;
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
 }
 
 .h1,
@@ -175,6 +192,10 @@
 .more-gallary {
   display: flex;
   gap: 2.5rem;
+}
+.starrating {
+  color: red;
+  font-size: 25px;
 }
 footer a {
   color: #ffffff;
