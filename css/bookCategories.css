@@ -1,4 +1,226 @@
-#cate div{
-  margin: 5% 2% 5% 2%;
+
+/*  nav */
+.navs {
+  width: 100%;
+  background: linear-gradient(to left, #07976e 0%, #00c9ff 100%);
+}
+html{
+  height: 100vh;
+}
+
+#navbar-user ul {
+  /* background: linear-gradient(to left, #07976e 0%, #00c9ff 100%); */
+  background-color: transparent;
+}
+
+.navs a img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* end nav */
+
+
+/* footer */
+footer a {
+  color: #ffffff;
+  text-decoration: none; 
+}
+
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline; 
+}
+/* end footer  */
+
+/* categories*/
+
+.categories{
+  /* background-color: silver; */
+  margin: 7% 3%;
+  border-radius: 3rem; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 7px;
+}
+.categories select{
+  border-radius: 3rem; 
+  width: 12rem;
+}
+.categories input{
+  border-radius: 3rem; 
+  width: 12rem;
 
 }
+.categories form button{
+  border: 2px solid #23adbd;
+  border-radius:15px ;
+  background-color: #23adbd;
+  color: white;
+  padding: 5px;
+  margin-top: 2%;
+  
+}
+
+/* end categories */
+
+#cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.cardsIncate{
+  margin: 5%; 
+}
+
+
+
+#cards div{
+  margin: 5% 2% 5% 2%;
+  border: 2px;
+
+}
+/* div.categories{
+  height: 100vh;
+} */
+
+
+
+.center h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+.center p
+{
+  font-size:12px;
+}
+
+.center
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:28rem;
+  width:24rem;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image
+{
+  height:16rem;
+  width:24rem;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: #FAFAFC;
+  height:22rem;
+  width:24rem;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1rem;
+  height:1rem;
+  background-color:black;
+  position:absolute;
+  bottom:1rem;
+  left:1rem;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18rem;
+}
+
+.property-card:hover .property-social-icons
+{
+  background-color:white;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
+}
+
+
+/* Optional
+
+.property-image-title
+{
+text-align:center;
+position:Relative;
+top:30%;
+opacity:0;
+transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+color:black;
+font-size:1.2em;
+}
+
+.property-card:hover .property-image-title
+{
+opacity:1;
+}
+
+*/
+

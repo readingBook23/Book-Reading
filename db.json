@@ -3,7 +3,7 @@
     {
       "id":1,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTo89ZuXSqrCK-k75b6cFODdRiI8fgD0kjKhcUbFaWrlcPh1pJMevhpaicG63B",
-      "bookName": "Science Fiction",
+      "book-name": "Science Fiction",
       "Rating": 4.6,
       "auther-name": "Frank Herbert",
       "Descriptions": "An epic science fiction novel about a young man named Paul Atreides who is destined to become the leader of a desert planet called Arrakis, the only known source of the spice melange, the most valuable substance in the universe."
@@ -186,7 +186,8 @@
       "book-name": "Pride and Prejudice",
       "Rating": 4.5  ,
       "auther-name": "Jane Austen",
-      "Descriptions": "AustenA classic romantic comedy about a young woman named Elizabeth Bennet and her relationship with Mr. Darcy, a wealthy and proud man."
+      "Descriptions": "AustenA classic romantic comedy about a young woman named Elizabeth Bennet and her relationship with Mr. Darcy, a wealthy and proud man.",
+      "ageGroup" : "adult"
     }
     ,
     {
@@ -195,7 +196,8 @@
       "book-name": "The Great Gatsby",
       "Rating": 4.4 ,
       "auther-name": "F. Scott Fitzgerald",
-      "Descriptions": "A tragic love story about Jay Gatsby, a wealthy man who throws lavish parties in an attempt to win back the love of his life, Daisy Buchanan."
+      "Descriptions": "A tragic love story about Jay Gatsby, a wealthy man who throws lavish parties in an attempt to win back the love of his life, Daisy Buchanan.",
+      "ageGroup" : "adult"
     }
     ,
     {

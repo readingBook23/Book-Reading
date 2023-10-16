@@ -1,79 +1,6 @@
 // important value
-
-function createCard(idOfElement ,data){
-  const location = document.getElementById(idOfElement);
-  let cardElement = document.createElement("div");
-  cardElement.classList.add(          
-    "w-full",
-    "max-w-sm",
-    "bg-white",
-    "border",
-    "border-gray-200",
-    "rounded-lg",
-    "shadow",
-    "dark:bg-gray-800",
-    "dark:border-gray-700",
-    "m-8",
-  );
-
-  cardElement.innerHTML = `
-      <a href="#">
-        <img
-          class="p-6 rounded-t-lg"
-          src="${data["image"]}"
-          alt="product image"
-        />
-      </a>
-      <div class="px-5 pb-2">
-        <a href="#">
-          <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-            ${data["bookNbook-name"]}
-          </h5>
-        </a>
-        </div>
-        <div class="px-5 pb-5 ">
-        <a href="#">
-        <p class="text-sm font-normal tracking-tight text-gray-900 dark:text-white ">
-          ${data["Descriptions"]}
-        </p>
-      </a>
-      </div>
-      
-    `;
-
-  location.appendChild(cardElement);
-
-}
-
-
-
-
-
-const fromBooks = "books/";
-let arrOfObjectForBooks = []
-
-// get data from json file 
-async function getDataFromJsonById(id=''){
-    const response = await fetch(`http://localhost:3000/books/${id}`);
-    const data = await response.json();
-    return data;
-
-}
-
-
-async function limitloopForData(opreation,limit){
-  for(let i = 1 ;i<=limit;i++){
-    const data =await opreation(i);
-    createCard("cate",data);
-  }
-}
-
-
-
-
-// convert data to arr of obj
-
-function Book (image=undefined,bookName=undefined,rating=undefined,autherName="undefined",descriptions=undefined){
+function Book (id=undefined,image=undefined,bookName=undefined,rating=undefined,autherName="undefined",descriptions=undefined){
+  this.id = id;
   this.image = image;
   this.bookName = bookName;
   this.rating = rating ;
@@ -85,33 +12,137 @@ function Book (image=undefined,bookName=undefined,rating=undefined,autherName="u
 }
 
 
-
-
-
-async function main(){
-  await limitloopForData(getDataFromJsonById,22);
-
-  // const book = new Book(
-  //   data["image"],
-  //   data['book-name'],
-  //   data['Rating'],
-  //   data['auther-name'],
-  //   data['Descriptions']
-  // );
-  // book.displayData()
-
+function createCard(idOfElement ,data=undefined){
+  const location = document.getElementById(idOfElement);
+  let cardElement = document.createElement("div");
+  cardElement.classList.add( 
+    "center"         
+  );
+  cardElement.innerHTML = `
+  <div class="property-card">
+    <a href="#">
+      <div class="property-image" style="  background-image:url('${data["image"]}');">
+        <div class="property-image-title">
+          <!-- Optional <h5>${data["book-name"]}</h5> If you want it, turn on the CSS also. -->
+        </div>
+      </div></a>
+    <div class="property-description">
+      <h5>${data["book-name"]}e </h5>
+      <p>${data["Descriptions"]}</p>
+    </div>
+    <a href="#">
+      <div class="property-social-icons">
+        <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+      </div>
+    </a>
+  </div>
+    `;            
+  location.appendChild(cardElement);
 }
 
+
+const fromBooks = "books/";
+let arrOfObjectForBooks = {};
+
+// get data from json file 
+async function getDataFromJsonById(id=''){
+    const response = await fetch(`http://localhost:3000/books/${id}`);
+    const data = await response.json();
+    return data;
+}
+
+// async function limitloopForData(opreation,limit,value){
+//   for(let i = 1 ;i<=limit;i++){
+//     const data = await opreation(i);
+//       await createCard("cards",data);
+    
+//   }
+// }
+
+
+// convert data to arr of obj
+ async function convertDataForObject(){
+  let data,book
+  for(let i = 1 ;i< 25;i++){
+     data = await getDataFromJsonById(i);
+     book = new Book(  
+      i,
+      data["image"],
+      data['book-name'],
+      data['Rating'],
+      data['auther-name'],
+      data['Descriptions']
+    );
+    arrOfObjectForBooks[i] = book;
+    // book.displayData()
+    }
+    return arrOfObjectForBooks;
+  }
+
+  function displayDataAfterFilter(arr = []){
+    let counter = 0;  
+    if(arr.length == 0){
+        console.log("ther an something wrong");
+      }
+      //from zero because I am loop on index not id  
+      for(let i  = 0 ;i<arr ; i++){
+      if(selectedGenre == "empty" || arr[i]."the name json" == selectedGenre){
+        counter +=1;
+        createCard("cards",arr[i])
+      }
+      if(selectedAgeGroup == "empty" || arr[i]."the name json" == selectedAgeGroup){
+        counter +=1;
+        createCard("cards",arr[i])
+      }
+      if(selectedLanguage == "empty" || arr[i]."the name json" == selectedLanguage){
+        counter +=1;
+        createCard("cards",arr[i])
+      }
+
+      }
+      return counter;
+}
+
+
+  async function main(){
+    const arr =await convertDataForObject();
+  
+  
+  }
+
+
+
+// categories edit 
+let selectedGenre= "empty";
+let selectedAgeGroup ="empty"
+let selectedLanguage ="empty"
+
+const genreSelect = document.getElementById('genre');
+genreSelect.addEventListener("change", (e) => {
+  selectedGenre = e.target.value;
+  console.log(selectedGenre)
+
+});
+
+
+  const ageGroupSelect = document.getElementById('ageGroup');
+  ageGroupSelect.addEventListener("change", (e) => {
+  selectedAgeGroup = e.target.value;
+  console.log(selectedAgeGroup)
+
+});
+
+const languageSelect = document.getElementById('language');
+languageSelect.addEventListener("change", (e) => {
+  selectedLanguage = e.target.value;
+  console.log(selectedLanguage)
+
+});
+//categories edit 
+
+
+
+
 main()
-
-// okdsa {id: 1, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:AN…-k75b6cFODdRiI8fgD0kjKhcUbFaWrlcPh1pJMevhpaicG63B', bookName: 'Science Fiction', Rating: 4.6, auther-name: 'Frank Herbert', …}Descriptions: "An epic science fiction novel about a young man named Paul Atreides who is destined to become the leader of a desert planet called Arrakis, the only known source of the spice melange, the most valuable substance in the universe."Rating: 4.6auther-name: "Frank Herbert"bookName: "Science Fiction"id: 1image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTo89ZuXSqrCK-k75b6cFODdRiI8fgD0kjKhcUbFaWrlcPh1pJMevhpaicG63B"[[Prototype]]: Object\
-
-
-
-
-
-
-
-
 
 
