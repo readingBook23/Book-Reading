@@ -3,6 +3,7 @@
 <head>
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
     <div class="login-container">
@@ -70,7 +71,6 @@
                 signInWithEmailAndPassword(auth, email.value, password.value)
                     .then(function (userCredential) {
                         alert('User logged in successfully.');
-                        // يمكنك توجيه المستخدم إلى صفحة أخرى هنا.
                     })
                     .catch(function (error) {
                         alert("Error: " + error.message);

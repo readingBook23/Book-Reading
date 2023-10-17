@@ -1,4 +1,7 @@
+
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+import { getFirestore } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
 import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js";
 
@@ -77,6 +80,35 @@ window.signin = function (e) {
             alert("Error: " + error.message);
         });
 };
+
+
+
+
+fetch("C:/Users/Orange/Desktop/login/Book-Reading/je.json") // استبدل بالمسار الصحيح إلى ملف JSON الخاص بك
+    .then(response => response.json())
+    .then(data => {
+        const emailSignIn = data.email; // استبدل بالمفتاح الصحيح من ملف JSON الخاص بك
+        const passwordSignIn = data.password; // استبدل بالمفتاح الصحيح من ملف JSON الخاص بك
+
+        // تسجيل المستخدم باستخدام بيانات الملف JSON
+        signInWithEmailAndPassword(auth, emailSignIn, passwordSignIn)
+            .then(function (userCredential) {
+                alert('User logged in successfully.');
+            })
+            .catch(function (error) {
+                alert("Error: " + error.message);
+            });
+    })
+    .catch(function (error) {
+        alert("Error: " + error.message);
+    });
+    
+
+
+
+
+
+
 
 
 

@@ -1,4 +1,11 @@
-User
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 .login-container {
     text-align: center;
     padding: 20px;
@@ -6,10 +13,22 @@ User
 }
 
 .login-container form {
-    margin: 0;
+    margin-top: 10%;
+    
 
 }
 
+.login-container {
+    text-align: center;
+    padding: 20px;
+    margin-top:6%;
+    background-color: #fff; 
+    border: 1px solid #009EE2; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    width: 350px; 
+    margin-left: 35%;
+}
 h1 {
     font-size: 80px;
     color: #009EE2;
@@ -25,12 +44,14 @@ p {
 }
 
 fieldset {
-    width: 5%;
-    text-align: left;
     height: 30px;
     margin-left: 42%;
     color: #009EE2;
-    border: 1px solid #009EE2;
+    border: none;
+    text-align: left;
+    border: none; 
+    padding: 10px; 
+    margin: 20px; 
 }
 
 
@@ -39,10 +60,7 @@ fieldset {
     padding: 20px;
 }
 
-.login-container form {
-    margin: 0;
 
-}
 
 h1 {
     font-size: 80px;
@@ -62,7 +80,7 @@ fieldset {
     width: 5%;
     text-align: left;
     height: 30px;
-    margin-left: 42%;
+    margin-left: 12%;
     color: #009EE2;
     border: 1px solid #009EE2;
 }
@@ -104,11 +122,15 @@ h6{
      text-align: center;
 }
 #login{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
     background-color: rgba(55, 129, 198, 0.60);
     width: 100.74px;
     height: 35px;
     color: white;
     border: 1px solid rgba(55, 129, 198, 0.60);
+    margin-right: 5%;
 }
 .line-before,
 .line-after {
@@ -237,16 +259,7 @@ justify-content: center;
 margin: 0.5%;
 
     }
-    .h4 h4 {
-        display: inline-flex;
-        text-align: right;
-        padding-right: 10px;
-        justify-content: right;
-        color: #3781C6;
-        text-align: center;
-        font-family: Outfit;
-        font-size: 20px;
-    }
+  
 
     .h4 {
         margin-left: 30%;
@@ -261,7 +274,7 @@ margin: 0.5%;
     }
 
     .form-control {
-        width: 40%; 
+        width: 35%; 
         height: auto; 
     } 
    
@@ -286,25 +299,11 @@ justify-content: center;
 margin: 0.5%;
 
     }
-    .h42 h4 {
-        display: inline-flex;
-        text-align: right;
-        padding-right: 10px;
-        justify-content: right;
-        color: #3781C6;
-        text-align: center;
-        font-family: Outfit;
-        font-size: 20px;
-    }
 
-    .h42 {
-        margin-left: 30%;
-        margin-top: 10%;
-    }
 
 
     .acc {
-        margin-left: 32%;
+        margin-right: 42%;
         color: #000;
 text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 font-family: Syne;
@@ -315,14 +314,7 @@ padding: 1px
     .in{
         text-align: left;
     }
-    .blue{
-       background-color: rgba(55, 129, 198, 0.07);
-        stroke-width: 1px;
-        stroke: #FFF;
-        backdrop-filter: blur(6px); 
-        border: #FFF;       
-
-    }
+ 
     
     #log{
         background-color: rgba(55, 129, 198, 0.60);
@@ -338,15 +330,65 @@ padding: 1px
         margin-left: 40%;
     }
 
+    .Now {
+        text-align: center;
+        margin: 10px 0;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+
+    .or {
+        display: block;
+        margin: 10px 0;
+    }
+
+
+
+
+    .form-group {
+        margin: 10px 0;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    input.form-control {
+        width: 90%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #3781C6;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h3#h2 {
+        font-size: 50px;
+        color: #3781C6;
+        font-weight: bolder;
+        margin-left: 25%;
+        white-space: nowrap; 
+        display: inline-block; 
+
+    }
+
+.left{
+    margin-right: 90%;
+}
+
+
+
+    
+
     @media screen and (max-width: 767px) {
         .login-container {
-            margin-right: 50%;
-            align-content: center;
-            justify-content: center;
-            text-align: center;
+            margin-left: 12%;
+            
         }
         #login{
-            margin-left: 75%;
+            margin-left: 60%;
+            
         }
       .acc{
         justify-content: left;
@@ -359,34 +401,37 @@ padding: 1px
     
         .Now {
             transform: translateX(-0%);
-            margin-left: 90px;
+            margin-left: 10px;
             white-space: nowrap;
+
         }
         
 
 .or {
     white-space: nowrap; 
     display: inline-block; 
-    transform: translateX(-40%); 
+    transform: translateX(-1%); 
     transition: transform 0.5s ease; 
-    margin-left: 90%;
+
+margin-right: 11%; 
+
 }
 
 .line-before,
 .line-after {
-    border-top: 1px solid #000;
+    border-top: 1x solid #000;
     content: "";
     display: inline-block;
     width: 45%;
     margin: 0 5px;
 }
 .hi{
-    margin-left: 75%;
+    margin-left: 10%;
     white-space: nowrap; 
     display: inline-block;
 }
 .we{
-    margin-left: 32%;
+    margin-left: 2%;
 }
 .line{
     text-decoration: none; 
@@ -395,8 +440,10 @@ padding: 1px
     white-space: nowrap; 
     display: inline-block; 
 }
-#log{
-align-content: center;   
+#login{
+align-content: center; 
+text-align: center; 
+margin-left: 5%; 
 
 }
 #signupinp{
@@ -405,5 +452,13 @@ align-content: center;
     text-align: center;
     margin-left: 40%;
 }
+
+.email-input{
+align-content: center;
+justify-content: center;
+
+}
+
+
 
     }
