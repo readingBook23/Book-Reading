@@ -24,7 +24,7 @@ Wireframe and Mockup Link : https://www.figma.com/file/ji5lSe21DmFL2IahJN7xQv/Un
 
 Resources:
 
-Figma
+--Figma
 Trello
 GitHub
 Json server auth
