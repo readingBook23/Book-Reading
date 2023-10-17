@@ -1,0 +1,339 @@
+
+/*  nav */
+.navs {
+  width: 100%;
+  background: linear-gradient(to left, #07976e 0%, #00c9ff 100%);
+}
+html{
+  height: 100vh;
+}
+
+#navbar-user ul {
+  /* background: linear-gradient(to left, #07976e 0%, #00c9ff 100%); */
+  background-color: transparent;
+}
+
+.navs a img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* end nav */
+
+
+/* footer */
+footer a {
+  color: #ffffff;
+  text-decoration: none; 
+}
+
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline; 
+}
+/* end footer  */
+
+
+
+
+
+/* categories*/
+
+.categories{
+  background-color: 23adbd;
+  margin: 7% 3%;
+  border-radius: 3rem; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 7px;
+}
+.categories select{
+  border-radius: 3rem; 
+  width: 12rem;
+  margin: 5px;
+
+  }
+.categories input{
+  border-radius: 3rem; 
+  width: 13rem;
+  border: 0px;
+}
+.categories form{
+  border: 1px solid black;
+  border-radius: 3rem;
+  margin: 5px;
+}
+
+.categories form button{
+  border: 2px solid #23adbd;
+  border-radius:3rem ;
+  background-color: #23adbd;
+  color: white;
+  padding: 7px;
+  
+}
+
+/* end categories */
+
+
+
+
+.center h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+.center p
+{
+  font-size:12px;
+}
+
+.center
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:28rem;
+  width:24rem;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image
+{
+  height:16rem;
+  width:24rem;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: #FAFAFC;
+  height:22rem;
+  width:24rem;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1rem;
+  height:1rem;
+  background-color:black;
+  position:absolute;
+  bottom:1rem;
+  left:1rem;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18rem;
+}
+
+.property-card:hover .property-social-icons
+{
+  background-color:white;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
+}
+
+
+
+
+/* new books section style  */
+.newBooks-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 6rem;
+}
+
+@media screen and (max-width:760px) {
+  .newBooks-heading {
+    text-align: left;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 4rem;
+    margin-left: 13rem;
+  }
+}
+
+.newBooks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* newBooks card for small screen */
+@media (max-width:560px) {
+  .newBooks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .newBooks_card {
+    margin-inline: 12rem;
+  }
+
+}
+
+/* newBooks card for medium screen */
+@media (min-width: 561px) and (max-width:900px) {
+  .newBooks {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+/* remove arrows for  screen  with width 1380 */
+
+@media (max-width: 1380px) {
+  .newBooks-arrow {
+    display: none;
+  }
+}
+
+/* style the author and title  */
+.newBooks-card_text {
+  font-size: medium;
+  margin-top: 2rem;
+}
+
+.newBooks-card_title {
+  font-size: large;
+  margin-bottom: 2rem;
+}
+
+.newBooks-scroll{
+  scroll-behavior: smooth;
+}
+.book__link {
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.book__link img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.book__link {
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.book__link img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+
+.newBooks-section a{
+    color: inherit;
+    text-decoration: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.newBooks-card_title {
+  text-align: center;
+}
+
+
+/* Pagination container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: #333; 
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0 4px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+  background-color: #ddd; 
+}
+
+/* Active page link styles */
+.pagination .active {
+  background-color: #007bff; 
+  color: white;
+  font-weight: bold;
+}
+
+
+/* end pagination */
