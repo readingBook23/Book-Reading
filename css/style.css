@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
 }
+
 .continer {
   width: 100%;
   height: 100vh;
@@ -19,7 +20,14 @@ i {
 }
 .navs {
   width: 100%;
-  background: linear-gradient(to left, #07976e 0%, #00c9ff 100%);
+  background: linear-gradient(to right, #05043d 0%, #05043d 100%);
+  /* background-color: transparent; */
+  position: fixed;
+  color: white;
+  z-index: 999;
+}
+.navs a {
+  color: wheat;
 }
 
 #navbar-user ul {
@@ -44,12 +52,14 @@ i {
   width: 100%;
 }
 #categorys {
-  background: linear-gradient(to left, #07976e 0%, #00c9ff 100%);
+  /* background: linear-gradient(to left, #07976e 0%, #00c9ff 100%); */
 
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  height: 100vh;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  gap: 20px;
+  /* height: 100vh; */
   width: 100%;
 }
 .hero {
@@ -65,6 +75,8 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box;
+  position: relative;
+  top: 106px;
 }
 
 .home-contact h1 {
@@ -94,14 +106,16 @@ i {
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  margin-top: 7rem;
 }
 #main {
   /* background: linear-gradient(to bottom right, #eee8dd, #e3d9c6); */
-  background: linear-gradient(to left, #07976e 0%, #00c9ff 100%);
+  /* background: linear-gradient(to left, #07976e 0%, #00c9ff 100%); */
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  height: 100vh;
+  /* justify-content: space-evenly; */
+  gap: 20px;
+  /* height: 100vh; */
   width: 100%;
 }
 .btn {
@@ -135,7 +149,7 @@ i {
   color: white;
 }
 .button {
-  background: linear-gradient(to left, #07976e 0%, #00c9ff 100%);
+  background: #05043d;
   border-radius: 20px;
   z-index: 999;
   color: white;
@@ -264,7 +278,7 @@ body {
 
 /* Main heading for card's front cover */
 .card-front__heading {
-  /* font-size: 1.5rem; */
+  font-size: 1.5rem;
   margin-top: 0.25rem;
 }
 
@@ -285,7 +299,7 @@ body {
 
 .inside-page__heading--city,
 .card-front__text-view--city {
-  color: #3ab4c9;
+  color: #05043d;
 }
 
 .inside-page__heading--ski,
@@ -414,12 +428,13 @@ body {
 /* Layout Structure=========================================*/
 
 .main {
-  background: linear-gradient(to bottom right, #eee8dd, #e3d9c6);
+  /* background: linear-gradient(to bottom right, #eee8dd, #e3d9c6); */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
+  margin-top: 40px;
 }
 
 /* Container to hold all cards in one place */
@@ -438,7 +453,7 @@ body {
 .card-section {
   align-items: center;
   display: flex;
-  height: 100%;
+  /* height: 100%; */
   justify-content: center;
   width: 100%;
 }
@@ -447,7 +462,7 @@ body {
 .card {
   background-color: rgba(0, 0, 0, 0.05);
   box-shadow: -0.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
-  height: 15rem;
+  height: 22.8rem;
   position: relative;
   transition: all 1s ease;
   width: 15rem;
@@ -498,8 +513,8 @@ body {
 
 /* container for the front side */
 .card-front {
-  background-color: #fafbfa;
-  height: 15rem;
+  background-color: white;
+  height: 22.8rem;
   width: 15rem;
 }
 
@@ -509,13 +524,13 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
   display: flex;
   flex-direction: column;
-  height: 12rem;
+  height: 18rem;
   justify-content: center;
   padding: 0.75rem;
 }
 
 .card-front__tp--city {
-  background: #3ab4c9;
+  background: #05043d;
 }
 
 .card-front__tp--ski {
@@ -544,6 +559,9 @@ body {
 .card-back {
   background-color: #fafbfa;
   transform: rotateY(180deg);
+}
+.card-back img {
+  height: 22.8rem;
 }
 
 /* Specifically targeting the <video> element */
@@ -595,6 +613,9 @@ body {
 /* When the card is hovered, the shadow on the inside page will shrink to the left */
 .card:hover .inside-page {
   box-shadow: inset 1rem 0px 5rem -2.5rem rgba(0, 0, 0, 0.1);
+}
+.card-front__tp i {
+  font-size: 40px;
 }
 
 @media (max-width: 420px) {
@@ -714,6 +735,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8rem;
+    margin-top: 150px;
   }
   .hero {
     width: 100%;
