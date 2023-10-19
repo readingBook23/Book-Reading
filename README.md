@@ -24,12 +24,12 @@ Wireframe and Mockup Link : https://www.figma.com/file/ji5lSe21DmFL2IahJN7xQv/Un
 
 Resources:
 
---Figma
-Trello
-GitHub
-Json server auth
-Tailwindcss
-Bootstrap
-Javascript
-Css
-Html
+- Figma
+- Trello
+- GitHub
+- Json server auth
+- Tailwindcss
+- Bootstrap
+- Javascript
+- Css
+- Html
