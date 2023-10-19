@@ -28,8 +28,7 @@ Resources:
 - Trello
 - GitHub
 - Json server auth
-- Tailwindcss
-- Bootstrap
+- Tailwind
 - Javascript
 - Css
 - Html
